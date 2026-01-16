@@ -291,8 +291,6 @@ docker-compose down
 docker-compose down -v
 ```
 
-Veja instruções detalhadas em [DOCKER.md](DOCKER.md)
-
 ### Opção 2: Desenvolvimento Local
 
 #### Pré-requisitos
@@ -557,8 +555,6 @@ npm install
 npm run dev
 ```
 
-Documentação completa: [DOCKER.md](DOCKER.md)
-
 ---
 
 ## Estrutura do Projeto
@@ -585,7 +581,6 @@ Documentação completa: [DOCKER.md](DOCKER.md)
 ├── docker-compose.yml        # Sistema completo (raiz)
 ├── start.sh                  # Script para iniciar
 ├── stop.sh                   # Script para parar
-├── DOCKER.md                 # Documentação Docker
 ├── .env.example              # Variáveis de ambiente
 └── README.md                 # Este arquivo
 ```
